@@ -1,0 +1,107 @@
+
+/* Configurações da Página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-weight: 400;
+
+}
+
+body {
+    height: 100vh;
+    background: url(../images/background.jpg) repeat top/cover; 
+}
+
+
+#top_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(4px);
+}
+
+img {
+    height: 80px;
+    margin-left: 36px;  
+}
+
+a#bt_about {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Itim', sans-serif;
+    background-color: #6725BB99;
+    padding: 8px;
+    margin-right: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+a#bt_about:active {
+    background-color: #2D065EB2;
+    color: #BBBBBB;
+}
+
+#container {
+    background-color: #D9D9D9B2;
+    margin: 56px 8% 0;
+}
+
+p#slogan {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+    padding: 95px 25px 58px;
+    
+}
+#mark{
+    color: #BD00FF;
+}
+
+#container_buttons {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 0 40px;
+}
+.usual_links {
+    text-decoration: none;
+    font-family: 'Itim', sans-serif;
+    color:#FFFFFF;
+    border-radius: 10px;
+    background: rgba(103, 37, 187, 0.70);
+    font-size: 1.5em;
+    padding: 12px 20px;
+    margin: 0 25px;
+}
+.usual_links:active {
+    text-decoration: none;
+    font-family: 'Itim', sans-serif;
+    color:#FFFFFF;
+    border-radius: 10px;
+    background-color: #2D065EB2;
+    font-size: 1.5em;
+    padding: 10px 18px;
+}
+
+footer {
+    padding-top: 30px;
+    text-align: center;
+}
+
+p#rodape {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+#linkedin {
+    color: #FFFFFF;
+}
+#linkedin:hover{
+    color: #9c9797;
+}
